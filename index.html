@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="reset" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Juego del ahorcado</title>
+    </head>
+    <body>
+        <header>
+            <div class="encabezado">
+                <img src="Imagenes/Vector.png" alt="Logo de Alura" class="logo img">
+                <h2 class="titulo">Desafio del juego del ahorcado.</h2>
+            </div>
+    
+        </header>
+        
+        <main>
+            <div id="div-desaparece" class="botones-home">
+                <a href="#forca">
+                    <!-- Boton input -->
+    
+                    <input class="btn-iniciar" type="submit" value="Iniciar juego." id="iniciar-juego" onclick="iniciarJuego()">
+                    <br>
+                    <input class="btn-agregarPalabra" type="submit" value="Agregar palabra." id="agregar-palabra" onclick="agregarPalabra()">
+    
+                </a>
+            </div>
+            <div id="div-aparece-ahorcado" class="canvas">
+                <!-- Canvas -->
+                <canvas id="forca" width="1200" height="860"></canvas>
+                <div class="subrayado"></div>
+            </div>
+                       
+    
+            <!--Aqui va referenciado el javascript-->
+        <script src="horca.js"></script>
+        <script src="canvas.js"></script>
+        </main> 
+    </body>
+    
+   
+</html>
+

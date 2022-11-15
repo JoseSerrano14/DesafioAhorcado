@@ -1,0 +1,97 @@
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+    
+body{
+    margin: 0;
+    margin-bottom: 50;
+    width: 100vw;
+    background: #6fb8f3;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: #0a7c73;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+}
+.paginaInicio{
+    display: block;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    margin:10px;
+}
+.encabezado{
+    display:flex;
+    position:relative;
+    margin: 10px 0px 0px 10px;
+}
+
+.logo img{
+    height: 50px;
+}
+
+main{
+    width: 100vw;
+    height: 80vh;
+    text-align: center;
+    padding: 30px;
+}
+    
+.botones-home{  
+    height: 80vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-iniciar{
+    padding: 25px;
+    margin: 5px 0 5px 0;
+    font-size: 15px;
+    background:#123456;
+    color:aliceblue;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+
+.btn-iniciar:hover{
+    background: #e71e5b;
+}
+
+.btn-iniciar:active{
+    border: 4px solid #f8f3f3;
+}
+
+.btn-agregarPalabra{
+    padding: 25px;
+    background:#747c83;
+    font-size: 15px;
+    color:aliceblue;
+    border-radius: 15px;
+    border: 2px solid #000000;
+}
+
+.btn-agregarPalabra:hover{
+    background: #30b350;
+}
+
+.btn-agregarPalabra:active{
+    border: 4px solid #f8f3f3;
+}
+
+.canvas{
+    margin:100px auto;
+}
